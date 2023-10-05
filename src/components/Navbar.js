@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-export const Navbar = () => {
+export const Navbar = ({setSearchQuery: setQuery}) => {
   const [aboutDropdownOpen, setAboutDropdownOpen] = useState(false);
 
   const toggleAboutDropdown = () => {
@@ -10,29 +10,18 @@ export const Navbar = () => {
 
   const handleSearch = (e) => {
     e.preventDefault();
-    // You can handle the search query here, for example, by sending it to a search API
-    console.log('Search Query:', searchQuery);
+    setQuery(searchQuery);
   };
- const content =<>
-  <div className="h-10vh flex justify-between z-50 text-white lg:py-5 px-20 py-4">
-  <ul>
-  <link>
-    <li>Home</li>
-  </link>
-
-  </ul>
-  </div>
- </>
 
   return (
-    <nav className="bg-white border p-4 rounded-md">
-      <div className="container mx-auto">
+    <nav className="bg-white shadow-md mx-4 border p-4 rounded-lg">
+      <div className="container mx-sm">
         <div className="flex justify-between items-center">
-          <div className="relative text-gray-600 w-full max-w-md">
-            <form onSubmit={handleSearch}>
+          <div className="relative rounded-full border overflow-hidden text-gray-600 w-full max-w-md">
+            <form onSubmit={handleSearch} className="shadow-md">
               <input
                 type="text"
-                className=" h-10 px-5 pr-16   text-sm w-full focus:outline-none"
+                className=" h-10 px-5 pr-16 text-sm w-full focus:outline-none"
                 placeholder="Search..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
@@ -58,25 +47,25 @@ export const Navbar = () => {
               onMouseLeave={() => toggleAboutDropdown()}
             >
               <a
-                href="#"
-                className="text-white hover:text-gray-200"
+                href="/"
+                className="text-grey-600 hover:text-blue-500"
               >
                 About
               </a>
               {aboutDropdownOpen && (
                 <ul className="absolute left-0 hidden mt-2 space-y-2 bg-white text-gray-700 group-hover:block">
                   <li>
-                    <a href="#" className="block px-4 py-2 hover:bg-blue-200">
+                    <a href="/" className="block text-black px-4 py-2 hover:bg-blue-200">
                       Option 1
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="block px-4 py-2 hover:bg-blue-200">
+                    <a href="/" className="block text-black px-4 py-2 hover:bg-blue-200">
                       Option 2
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="block px-4 py-2 hover:bg-blue-200">
+                    <a href="/" className="block text-black px-4 py-2 hover:bg-blue-200">
                       Option 3
                     </a>
                   </li>
@@ -84,12 +73,12 @@ export const Navbar = () => {
               )}
             </li>
             <li>
-              <a href="#" className="text-white hover:text-gray-200">
+              <a href="/" className="text-grey-600 hover:text-blue-500">
                 Services
               </a>
             </li>
             <li>
-              <a href="#" className="text-white hover:text-gray-200">
+              <a href="/" className="text-grey-600 hover:text-blue-500">
                 Contact
               </a>
             </li>

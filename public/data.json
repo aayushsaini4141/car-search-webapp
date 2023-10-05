@@ -1,0 +1,92 @@
+[
+    {
+      "id": 1,
+      "name":"Nissan GTR",
+      "year": 2021,
+      "passengers": 2,
+      "fuelType": "Hybrid",
+      "mileage": "6.1 km/l",
+      "transmission": "Automatic",
+      "price": 440,
+      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 2,
+      "name": "Toyota Camry",
+      "year": 2020,
+      "passengers": 5,
+      "fuelType": "Gasoline",
+      "mileage": "7.5 km/l",
+      "transmission": "Automatic",
+      "price": 350,
+      "image": "https://example.com/car2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Honda Civic",
+      "year": 2019,
+      "passengers": 4,
+      "fuelType": "Gasoline",
+      "mileage": "8.0 km/l",
+      "transmission": "Manual",
+      "price": 300,
+      "image": "https://example.com/car3.jpg"
+    },
+    {
+      "id": 4,
+      "name":"Nissan GTR",
+      "year": 2021,
+      "passengers": 2,
+      "fuelType": "Hybrid",
+      "mileage": "6.1 km/l",
+      "transmission": "Automatic",
+      "price": 440,
+      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 5,
+      "name":"Nissan GTR",
+      "year": 2021,
+      "passengers": 2,
+      "fuelType": "Hybrid",
+      "mileage": "6.1 km/l",
+      "transmission": "Automatic",
+      "price": 440,
+      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 6,
+      "name":"Nissan GTR",
+      "year": 2021,
+      "passengers": 2,
+      "fuelType": "Hybrid",
+      "mileage": "6.1 km/l",
+      "transmission": "Automatic",
+      "price": 440,
+      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 7,
+      "name":"Nissan GTR",
+      "year": 2021,
+      "passengers": 2,
+      "fuelType": "Hybrid",
+      "mileage": "6.1 km/l",
+      "transmission": "Automatic",
+      "price": 440,
+      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 8,
+      "name":"Nissan GTR",
+      "year": 2021,
+      "passengers": 2,
+      "fuelType": "Hybrid",
+      "mileage": "6.1 km/l",
+      "transmission": "Automatic",
+      "price": 440,
+      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    }
+    
+  ]
+  
