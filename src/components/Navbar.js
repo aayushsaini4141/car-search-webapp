@@ -3,7 +3,8 @@ import React, {useState} from 'react'
 export const Navbar = ({setSearchQuery: setQuery}) => {
   const [aboutDropdownOpen, setAboutDropdownOpen] = useState(false);
 
-  const toggleAboutDropdown = () => {
+  const toggleAboutDropdown = (e) => {
+    e.preventDefault();
     setAboutDropdownOpen(!aboutDropdownOpen);
   };
   const [searchQuery, setSearchQuery] = useState('');
@@ -43,17 +44,16 @@ export const Navbar = ({setSearchQuery: setQuery}) => {
         
           <li
               className="relative group"
-              onMouseEnter={() => toggleAboutDropdown()}
-              onMouseLeave={() => toggleAboutDropdown()}
             >
-              <a
-                href="/"
+              <button
                 className="text-grey-600 hover:text-blue-500"
+                onClick={(e) => toggleAboutDropdown(e)}
+                onBlur={()=>setAboutDropdownOpen(false)}
               >
                 About
-              </a>
+              </button>
               {aboutDropdownOpen && (
-                <ul className="absolute left-0 hidden mt-2 space-y-2 bg-white text-gray-700 group-hover:block">
+                <ul className="absolute left-0 mt-2 space-y-2 bg-white text-gray-700">
                   <li>
                     <a href="/" className="block text-black px-4 py-2 hover:bg-blue-200">
                       Option 1
