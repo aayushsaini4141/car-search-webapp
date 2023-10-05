@@ -8,7 +8,7 @@ function Pagination({ totalPages, currentPage, onPageChange }) {
       {pageNumbers.map((page) => (
         <button
           key={page}
-          className={`bg-white w-7 m-2 text-black p-md rounded-lg shadow-md ${page === currentPage ? 'bg-sky-500 text-white active' : ''}`}
+          className={`bg-white w-7 m-2 text-black p-md rounded-lg shadow-md ${page === currentPage ? 'bg-black text-white active' : ''}`}
           onClick={() => onPageChange(page)}
         >
           {page}

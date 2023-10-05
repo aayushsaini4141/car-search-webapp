@@ -46,7 +46,7 @@ function App() {
     <>
       <div className="App">
         <Navbar setSearchQuery={setSearchQuery} />
-        <div className="flex flex-wrap items-center justify-center justify-around">
+        <div className="flex flex-wrap items-center justify-around">
           {currentItems.length === 0 && <p>No data to show.</p>}
           {currentItems.map((detail) => (
             <Card key={detail.id} detail={detail} />
