@@ -2,11 +2,16 @@ import React, {useState} from 'react'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 export const Navbar = ({setSearchQuery: setQuery}) => {
-  const [aboutDropdownOpen, setAboutDropdownOpen] = useState(false);
+  const [relevanceDropdownOpen, setRelevanceDropdownOpen] = useState(false);
+  const [brandDropdownOpen, setBrandDropdownOpen] = useState(false);
 
-  const toggleAboutDropdown = (e) => {
+  const toggleRelevanceDropdown = (e) => {
     e.preventDefault();
-    setAboutDropdownOpen(!aboutDropdownOpen);
+    setRelevanceDropdownOpen(!relevanceDropdownOpen);
+  };
+  const toggleBrandDropdown = (e) => {
+    e.preventDefault();
+    setBrandDropdownOpen(!brandDropdownOpen);
   };
   const [searchQuery, setSearchQuery] = useState('');
 
@@ -48,13 +53,13 @@ export const Navbar = ({setSearchQuery: setQuery}) => {
             >
               <button 
                 className="text-grey-600 hover:text-blue-500"
-                onClick={(e) => toggleAboutDropdown(e)}
-                onBlur={()=>setAboutDropdownOpen(false)}
+                onClick={(e) => toggleRelevanceDropdown(e)}
+                onBlur={()=>setRelevanceDropdownOpen(false)}
               >
                 Relevance
                <KeyboardArrowDownIcon />
               </button>
-              {aboutDropdownOpen && (
+              {relevanceDropdownOpen && (
                 
                 <ul className="absolute left-0 mt-2 space-y-2 bg-white text-gray-700">
                   <li>
@@ -80,38 +85,34 @@ export const Navbar = ({setSearchQuery: setQuery}) => {
             >
               <button 
                 className="text-grey-600 hover:text-blue-500"
-                onClick={(e) => toggleAboutDropdown(e)}
-                onBlur={()=>setAboutDropdownOpen(false)}
+                onClick={(e) => toggleBrandDropdown(e)}
+                onBlur={()=>setBrandDropdownOpen(false)}
               >
                 Brands
                <KeyboardArrowDownIcon />
               </button>
-              {aboutDropdownOpen && (
+              {brandDropdownOpen && (
                 
                 <ul className="absolute left-0 mt-2 space-y-2 bg-white text-gray-700">
                   <li>
                     <a href="/" className="block text-black px-4 py-2 hover:bg-blue-200">
-                      Option 1
+                      Toyota
                     </a>
                   </li>
                   <li>
                     <a href="/" className="block text-black px-4 py-2 hover:bg-blue-200">
-                      Option 2
+                      Mini Cooper
                     </a>
                   </li>
                   <li>
                     <a href="/" className="block text-black px-4 py-2 hover:bg-blue-200">
-                      Option 3
+                      Nissan
                     </a>
                   </li>
                 </ul>
               )}
             </li>
-            <li>
-              <a href="/" className="text-grey-600 hover:text-blue-500">
-                Contact
-              </a>
-            </li>
+            
           </ul>
         </div>
       </div>
