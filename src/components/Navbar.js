@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 export const Navbar = ({setSearchQuery: setQuery}) => {
   const [aboutDropdownOpen, setAboutDropdownOpen] = useState(false);
@@ -45,14 +46,16 @@ export const Navbar = ({setSearchQuery: setQuery}) => {
           <li
               className="relative group"
             >
-              <button
+              <button 
                 className="text-grey-600 hover:text-blue-500"
                 onClick={(e) => toggleAboutDropdown(e)}
                 onBlur={()=>setAboutDropdownOpen(false)}
               >
-                About
+                Relevance
+               <KeyboardArrowDownIcon />
               </button>
               {aboutDropdownOpen && (
+                
                 <ul className="absolute left-0 mt-2 space-y-2 bg-white text-gray-700">
                   <li>
                     <a href="/" className="block text-black px-4 py-2 hover:bg-blue-200">
@@ -72,10 +75,37 @@ export const Navbar = ({setSearchQuery: setQuery}) => {
                 </ul>
               )}
             </li>
-            <li>
-              <a href="/" className="text-grey-600 hover:text-blue-500">
-                Services
-              </a>
+            <li
+              className="relative group"
+            >
+              <button 
+                className="text-grey-600 hover:text-blue-500"
+                onClick={(e) => toggleAboutDropdown(e)}
+                onBlur={()=>setAboutDropdownOpen(false)}
+              >
+                Brands
+               <KeyboardArrowDownIcon />
+              </button>
+              {aboutDropdownOpen && (
+                
+                <ul className="absolute left-0 mt-2 space-y-2 bg-white text-gray-700">
+                  <li>
+                    <a href="/" className="block text-black px-4 py-2 hover:bg-blue-200">
+                      Option 1
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/" className="block text-black px-4 py-2 hover:bg-blue-200">
+                      Option 2
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/" className="block text-black px-4 py-2 hover:bg-blue-200">
+                      Option 3
+                    </a>
+                  </li>
+                </ul>
+              )}
             </li>
             <li>
               <a href="/" className="text-grey-600 hover:text-blue-500">
