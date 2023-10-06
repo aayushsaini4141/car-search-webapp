@@ -39,8 +39,11 @@ Create a function to update the current page when a user clicks on a page number
 
 - [@Ayush Saini](https://github.com/aayushsaini4141)
 
+### Screenshots
 
-![Alt Text](screeenshots/Screenshots(41).png)
+![Screenshot (43)](https://github.com/aayushsaini4141/car-search-webapp/assets/105410384/1245bee3-0c11-4e33-a3d1-e9ee2ee89de5)
+
+![Screenshot (44)](https://github.com/aayushsaini4141/car-search-webapp/assets/105410384/8b76390c-3694-4829-a416-e3703ccee69a)
 
 
 ## Project Setup
