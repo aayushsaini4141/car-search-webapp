@@ -1,92 +1,90 @@
 [
-    {
-      "id": 1,
-      "name":"Nissan GTR",
-      "year": 2021,
-      "passengers": 2,
-      "fuelType": "Hybrid",
-      "mileage": "6.1 km/l",
-      "transmission": "Automatic",
-      "price": 440,
-      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
-    },
-    {
-      "id": 2,
-      "name": "Toyota Camry",
-      "year": 2020,
-      "passengers": 5,
-      "fuelType": "Hybrid",
-      "mileage": "6.1 km/l",
-      "transmission": "Automatic",
-      "price": 350,
-      "image": "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-    },
-    {
-      "id": 3,
-      "name": "Honda Civic",
-      "year": 2019,
-      "passengers": 4,
-      "fuelType": "Hybrid",
-      "mileage": "6.1 km/l",
-      "transmission": "Automatic",
-      "price": 300,
-      "image": "https://images.unsplash.com/photo-1605816988069-b11383b50717?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2088&q=80"
-    },
-    {
-      "id": 4,
-      "name":"Mustang GT",
-      "year": 2023,
-      "passengers": 2,
-      "fuelType": "Hybrid",
-      "mileage": "6.1 km/l",
-      "transmission": "Automatic",
-      "price": 500,
-      "image": "https://images.unsplash.com/photo-1588127333419-b9d7de223dcf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80"
-    },
-    {
-      "id": 5,
-      "name":"Toyota Supra",
-      "year": 2021,
-      "passengers": 2,
-      "fuelType": "Hybrid",
-      "mileage": "6.1 km/l",
-      "transmission": "Automatic",
-      "price": 440,
-      "image": "https://images.unsplash.com/photo-1620882788693-cd891b20837d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1931&q=80"
-    },
-    {
-      "id": 6,
-      "name":"Mini Cooper",
-      "year": 2023,
-      "passengers": 4,
-      "fuelType": "Hybrid",
-      "mileage": "6.1 km/l",
-      "transmission": "Automatic",
-      "price": 440,
-      "image": "https://images.unsplash.com/photo-1590778846913-de794a6bb4ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-    },
-    {
-      "id": 7,
-      "name":"Nissan GTR",
-      "year": 2021,
-      "passengers": 2,
-      "fuelType": "Hybrid",
-      "mileage": "6.1 km/l",
-      "transmission": "Automatic",
-      "price": 440,
-      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
-    },
-    {
-      "id": 8,
-      "name":"Nissan GTR",
-      "year": 2021,
-      "passengers": 2,
-      "fuelType": "Hybrid",
-      "mileage": "6.1 km/l",
-      "transmission": "Automatic",
-      "price": 440,
-      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
-    }
-    
-  ]
-  
+  {
+    "id": 1,
+    "name": "Nissan GTR",
+    "year": 2021,
+    "passengers": 2,
+    "fuelType": "Hybrid",
+    "mileage": "6.1 km/l",
+    "transmission": "Automatic",
+    "price": 440,
+    "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": 2,
+    "name": "Toyota Camry",
+    "year": 2020,
+    "passengers": 5,
+    "fuelType": "Hybrid",
+    "mileage": "6.1 km/l",
+    "transmission": "Automatic",
+    "price": 350,
+    "image": "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Honda Civic",
+    "year": 2019,
+    "passengers": 4,
+    "fuelType": "Hybrid",
+    "mileage": "6.1 km/l",
+    "transmission": "Automatic",
+    "price": 300,
+    "image": "https://images.unsplash.com/photo-1605816988069-b11383b50717?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2088&q=80"
+  },
+  {
+    "id": 4,
+    "name": "Mustang GT",
+    "year": 2023,
+    "passengers": 2,
+    "fuelType": "Hybrid",
+    "mileage": "6.1 km/l",
+    "transmission": "Automatic",
+    "price": 500,
+    "image": "https://images.unsplash.com/photo-1588127333419-b9d7de223dcf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80"
+  },
+  {
+    "id": 5,
+    "name": "Toyota Supra",
+    "year": 2021,
+    "passengers": 2,
+    "fuelType": "Hybrid",
+    "mileage": "6.1 km/l",
+    "transmission": "Automatic",
+    "price": 440,
+    "image": "https://images.unsplash.com/photo-1620882788693-cd891b20837d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1931&q=80"
+  },
+  {
+    "id": 6,
+    "name": "Mini Cooper",
+    "year": 2023,
+    "passengers": 4,
+    "fuelType": "Hybrid",
+    "mileage": "6.1 km/l",
+    "transmission": "Automatic",
+    "price": 440,
+    "image": "https://images.unsplash.com/photo-1590778846913-de794a6bb4ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+  },
+  {
+    "id": 7,
+    "name": "Nissan GTR",
+    "year": 2021,
+    "passengers": 2,
+    "fuelType": "Hybrid",
+    "mileage": "6.1 km/l",
+    "transmission": "Automatic",
+    "price": 440,
+    "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": 8,
+    "name": "Nissan GTR",
+    "year": 2021,
+    "passengers": 2,
+    "fuelType": "Hybrid",
+    "mileage": "6.1 km/l",
+    "transmission": "Automatic",
+    "price": 440,
+    "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+  }
+]

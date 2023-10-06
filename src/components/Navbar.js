@@ -1,7 +1,7 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
-export const Navbar = ({setSearchQuery: setQuery}) => {
+export const Navbar = ({ setSearchQuery: setQuery }) => {
   const [relevanceDropdownOpen, setRelevanceDropdownOpen] = useState(false);
   const [brandDropdownOpen, setBrandDropdownOpen] = useState(false);
 
@@ -47,20 +47,20 @@ export const Navbar = ({setSearchQuery: setQuery}) => {
             </form>
           </div>
           <ul className="flex space-x-4">
-        
-          <li
+
+            <li
               className="relative group"
             >
-              <button 
+              <button
                 className="text-grey-600 hover:text-blue-500"
                 onClick={(e) => toggleRelevanceDropdown(e)}
-                onBlur={()=>setRelevanceDropdownOpen(false)}
+                onBlur={() => setRelevanceDropdownOpen(false)}
               >
                 Relevance
-               <KeyboardArrowDownIcon />
+                <KeyboardArrowDownIcon />
               </button>
               {relevanceDropdownOpen && (
-                
+
                 <ul className="absolute left-0 mt-2 space-y-2 bg-white text-gray-700">
                   <li>
                     <a href="/" className="block text-black px-4 py-2 hover:bg-blue-200">
@@ -83,16 +83,16 @@ export const Navbar = ({setSearchQuery: setQuery}) => {
             <li
               className="relative group"
             >
-              <button 
+              <button
                 className="text-grey-600 hover:text-blue-500"
                 onClick={(e) => toggleBrandDropdown(e)}
-                onBlur={()=>setBrandDropdownOpen(false)}
+                onBlur={() => setBrandDropdownOpen(false)}
               >
                 Brands
-               <KeyboardArrowDownIcon />
+                <KeyboardArrowDownIcon />
               </button>
               {brandDropdownOpen && (
-                
+
                 <ul className="absolute left-0 mt-2 space-y-2 bg-white text-gray-700">
                   <li>
                     <a href="/" className="block text-black px-4 py-2 hover:bg-blue-200">
@@ -112,7 +112,7 @@ export const Navbar = ({setSearchQuery: setQuery}) => {
                 </ul>
               )}
             </li>
-            
+
           </ul>
         </div>
       </div>
