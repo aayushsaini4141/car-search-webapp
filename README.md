@@ -39,7 +39,8 @@ Create a function to update the current page when a user clicks on a page number
 
 - [@Ayush Saini](https://github.com/aayushsaini4141)
 
-![Alt Text](Screenshot(41).png)
+
+![Alt Text](screeenshots/Screenshots(41).png)
 
 
 ## Project Setup
